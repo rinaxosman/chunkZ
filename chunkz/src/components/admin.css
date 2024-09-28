@@ -1,0 +1,74 @@
+.content{
+    padding: 70px 0 0 20px;
+}
+
+.h-archives{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.employee-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: black;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"] {
+    margin: 10px 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: calc(100% - 18px);
+    color: black;  
+}
+
+.edit-form button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #38aa56;
+    color: black;
+}
+
+.edit-form button:nth-child(2) {
+    background-color: #6c757d;
+}
+
+button{
+    background-color: #38aa56;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: black;
+    box-shadow: none;
+}
