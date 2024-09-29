@@ -9,7 +9,7 @@ return (
           <p>
             &copy; 2024 ChunkZ. <br></br>
             Design and implementation by 
-            <a href="https://github.com/rinaxosman/chunkZ" target="blank"> Group 119</a> for Hack the Hill 2.
+            <a href="https://github.com/rinaxosman/chunkZ" target="blank"> Alpha Squad</a> for Hack the Hill 2.
           </p>
           <p>
             Inspired by: Issaaf Kattan.
