@@ -7,6 +7,7 @@ import { Services } from "./components/services";
 import { Testimonials } from "./components/testimonials";
 import { MainLayout } from "./components/Mainlayout";
 import { Transfer } from "./components/transfer";
+import { Footer } from "./components/footer";
 import LoginPage from "./components/login";
 import Confirmation from "./components/confirmation";
 import JsonData from "./data/data.json";
@@ -51,6 +52,7 @@ const HomePage = ({ data }) => (
     <About data={data.About} />
     <Services data={data.Services} />
     <Testimonials data={data.Testimonials} />
+    <Footer data={data.Footer} />
   </React.Fragment>
 );
 
